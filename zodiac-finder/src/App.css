@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(234, 234, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+a{
+    margin-right: 15px;
+}
+p{
+    font-size: 20px;
+}
+img{
+    margin-bottom: 40px;
+}
+.astroimg{
+    display: flexbox;
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+}
+header{
+    background-color: rgb(74, 6, 83);
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+select{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    display: flexbox;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+option{
+    cursor: pointer;
+    height: 40px;
+}
+.selecter{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.containerr{
+    padding: 40px;
+}
+.heading{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.select-btn{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    display: flexbox;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    background-color: rgb(28, 25, 29);
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+.select-btn:hover{
+    background-color: rgb(61, 60, 60);
+    transition: 1s;
+}
